@@ -8677,3 +8677,343 @@ Processing by EventsController#index as JSON
   [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events"
   Rendered events/index.json.jbuilder (28.7ms)
 Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-05-21 02:24:00 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 219ms (Views: 217.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:01 -0400
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-05-21 02:24:38 -0400
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 166ms (Views: 164.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-21 02:24:39 -0400
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-05-21 02:25:30 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 122ms (Views: 121.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:31 -0400
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-05-21 02:25:39 -0400
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 134ms (Views: 133.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+
+
+Started GET "/events.json?start=1400385600&end=1400990400&_=1400653540493" for 127.0.0.1 at 2014-05-21 02:25:40 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1400385600", "end"=>"1400990400", "_"=>"1400653540493"}
+  [1m[36mEvent Load (0.6ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.json.jbuilder (13.2ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-05-21 02:25:53 -0400
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 155ms (Views: 153.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:25:54 -0400
+
+
+Started GET "/events/" for 127.0.0.1 at 2014-05-21 02:26:02 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 175ms (Views: 173.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+
+
+Started GET "/events.json?start=1400385600&end=1400990400&_=1400653563543" for 127.0.0.1 at 2014-05-21 02:26:03 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1400385600", "end"=>"1400990400", "_"=>"1400653563543"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.json.jbuilder (15.3ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-05-21 02:26:11 -0400
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (2.8ms)
+  Rendered events/new.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events.json?start=1400385600&end=1400990400&_=1400653563544" for 127.0.0.1 at 2014-05-21 02:26:11 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1400385600", "end"=>"1400990400", "_"=>"1400653563544"}
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.json.jbuilder (7.3ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2014-05-21 02:26:28 -0400
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R58+vPvaiFdPgcEmp+T3u2Jkw0jlnT1J/mMyLORCOm4=", "event"=>{"title"=>"Jason Train", "description"=>"", "start_time"=>"Wed May 21 2014 10:00:00 GMT-0400 (EDT)", "end_time"=>"Wed May 21 2014 11:00:00 GMT-0400 (EDT)"}}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mEvent Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "events" WHERE "events"."start_time" = '2014-05-21 14:00:00.000000' LIMIT 1[0m
+  [1m[35mEvent Exists (0.1ms)[0m  SELECT 1 AS one FROM "events" WHERE "events"."end_time" = '2014-05-21 15:00:00.000000' LIMIT 1
+  [1m[36mEvent Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "events" WHERE ((events.end_time IS NULL OR events.end_time >= '2014-05-21 14:00:00.000000') AND (events.start_time IS NULL OR events.start_time <= '2014-05-21 15:00:00.000000')) LIMIT 1[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "events" ("created_at", "description", "end_time", "start_time", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Wed, 21 May 2014 06:26:28 UTC +00:00], ["description", ""], ["end_time", Wed, 21 May 2014 15:00:00 UTC +00:00], ["start_time", Wed, 21 May 2014 14:00:00 UTC +00:00], ["title", "Jason Train"], ["updated_at", Wed, 21 May 2014 06:26:28 UTC +00:00]]
+  [1m[36m (17.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/events/8
+Completed 302 Found in 78ms (ActiveRecord: 20.9ms)
+
+
+Started GET "/events/8" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events" WHERE "events"."id" = ? LIMIT 1  [["id", "8"]]
+  Rendered events/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 25ms (Views: 17.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-21 02:26:29 -0400
+
+
+Started GET "/events" for 127.0.0.1 at 2014-05-21 02:26:32 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events.json?start=1400385600&end=1400990400&_=1400653589466" for 127.0.0.1 at 2014-05-21 02:26:32 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1400385600", "end"=>"1400990400", "_"=>"1400653589466"}
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.json.jbuilder (19.8ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.4ms)

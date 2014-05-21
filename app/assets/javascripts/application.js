@@ -57,7 +57,8 @@
 							allDay: allDay
 						},
 						true,
-						alert(start + end + title)
+						alert(start + end + title),
+						$("#new_event").submit()
 					);
 				}
 				$('#inputcalendar').fullCalendar('unselect');
