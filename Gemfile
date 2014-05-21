@@ -6,6 +6,9 @@ gem 'rails', '4.0.1'
 # calendar
 gem 'fullcalendar-rails'
 
+#overlapping validation
+gem 'validates_overlap'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 

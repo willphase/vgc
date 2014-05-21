@@ -22,6 +22,8 @@
 
     $('#calendar').fullCalendar({
         events: '/events.json',
+    	timezone: 'UTC',
+    	ignoreTimezone: true,
     	defaultView: 'agendaWeek',
     	selectable: true,
 			selectHelper: true,
@@ -31,8 +33,42 @@
 					$('#calendar').fullCalendar('renderEvent',
 						{
 							title: title,
-							start: start,
-							end: end,
+							start: start.toUTCString(),
+							end: end.toUTCString(),
+							allDay: allDay
+						},
+						true,
+						alert(start + end + title)
+					);
+				}
+				calendar.fullCalendar('unselect');
+			},
+
+    })
+
+});
+
+    $(document).ready(function() {
+
+    // page is now ready, initialize the calendar...
+
+    $('#inputcalendar').fullCalendar({
+    	defaultView: 'agendaWeek',
+    	timezone: 'UTC',
+    	ignoreTimezone: true,
+    	selectable: true,
+			selectHelper: true,
+			select: function(start, end, allDay) {
+				var title = prompt('Event Title:');
+				if (title) {
+					$('#event_title').val(title);
+					$('#event_start_time').val(start);
+					$('#event_end_time').val(end);
+					$('#inputcalendar').fullCalendar('renderEvent',
+						{
+							title: title,
+							start: start.toUTCString(),
+							end: end.toUTCString(),
 							allDay: allDay
 						},
 						true,
