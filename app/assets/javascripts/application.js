@@ -13,8 +13,8 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
-//= require_tree .
 //= require fullcalendar
+//= require_tree .
 //= require turbolinks
 
   $(document).ready(function() {
@@ -23,6 +23,7 @@
 
     $('#calendar').fullCalendar({
         events: '/events.json',
+        allDaySlot: false,
     	timezone: 'UTC',
     	ignoreTimezone: true,
     	defaultView: 'agendaWeek',
@@ -33,9 +34,11 @@
     $(document).ready(function() {
 
     // page is now ready, initialize the calendar...
-
+    $('#inputcalendar').css({"clear": "none;"});
     $('#inputcalendar').fullCalendar({
+    	events: '../events.json',
     	defaultView: 'agendaWeek',
+    	allDaySlot: false,
     	timezone: 'UTC',
     	ignoreTimezone: true,
     	selectable: true,
