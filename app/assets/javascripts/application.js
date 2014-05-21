@@ -14,3 +14,34 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require fullcalendar
+
+  $(document).ready(function() {
+
+    // page is now ready, initialize the calendar...
+
+    $('#calendar').fullCalendar({
+        events: '/events.json',
+    	defaultView: 'agendaWeek',
+    	selectable: true,
+			selectHelper: true,
+			select: function(start, end, allDay) {
+				var title = prompt('Event Title:');
+				if (title) {
+					$('#calendar').fullCalendar('renderEvent',
+						{
+							title: title,
+							start: start,
+							end: end,
+							allDay: allDay
+						},
+						true,
+						alert(start + end + title)
+					);
+				}
+				calendar.fullCalendar('unselect');
+			},
+
+    })
+
+});
