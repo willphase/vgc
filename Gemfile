@@ -3,10 +3,13 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
-# calendar
+# Calendar
 gem 'fullcalendar-rails'
 
-#overlapping validation
+# So that document.ready works
+gem 'jquery-turbolinks'
+
+# Overlapping validation
 gem 'validates_overlap'
 
 # Use SCSS for stylesheets

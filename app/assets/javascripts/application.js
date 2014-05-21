@@ -11,10 +11,11 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
 //= require fullcalendar
+//= require turbolinks
 
   $(document).ready(function() {
 
@@ -25,25 +26,6 @@
     	timezone: 'UTC',
     	ignoreTimezone: true,
     	defaultView: 'agendaWeek',
-    	selectable: true,
-			selectHelper: true,
-			select: function(start, end, allDay) {
-				var title = prompt('Event Title:');
-				if (title) {
-					$('#calendar').fullCalendar('renderEvent',
-						{
-							title: title,
-							start: start.toUTCString(),
-							end: end.toUTCString(),
-							allDay: allDay
-						},
-						true,
-						alert(start + end + title)
-					);
-				}
-				calendar.fullCalendar('unselect');
-			},
-
     })
 
 });
