@@ -60,7 +60,7 @@
 						alert(start + end + title)
 					);
 				}
-				calendar.fullCalendar('unselect');
+				$('#inputcalendar').fullCalendar('unselect');
 			},
 
     })
