@@ -9017,3 +9017,116 @@ Processing by EventsController#index as JSON
   [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events"
   Rendered events/index.json.jbuilder (19.8ms)
 Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-27 22:47:59 -0400
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.0ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (52.8ms)
+Completed 200 OK in 89ms (Views: 83.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 22:48:00 -0400
+
+
+Started GET "/events.json?start=1400990400&end=1401595200&_=1401245280861" for 127.0.0.1 at 2014-05-27 22:48:01 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1400990400", "end"=>"1401595200", "_"=>"1401245280861"}
+  [1m[35mEvent Load (0.6ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.json.jbuilder (40.8ms)
+Completed 200 OK in 60ms (Views: 56.9ms | ActiveRecord: 0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateCoaches (20140528025711)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (9.1ms)[0m  [1mCREATE TABLE "coaches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (2.1ms)[0m  CREATE UNIQUE INDEX "index_coaches_on_email" ON "coaches" ("email")
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_coaches_on_reset_password_token" ON "coaches" ("reset_password_token")[0m
+  [1m[35mSQL (9.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140528025711"]]
+  [1m[36m (26.4ms)[0m  [1mcommit transaction[0m
+Migrating to DeviseCreateStudents (20140528025727)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (11.3ms)[0m  [1mCREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX "index_students_on_email" ON "students" ("email")
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_students_on_reset_password_token" ON "students" ("reset_password_token")[0m
+  [1m[35mSQL (8.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140528025727"]]
+  [1m[36m (22.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-27 23:04:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.7ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (90.4ms)
+Completed 200 OK in 445ms (Views: 372.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-27 23:04:31 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+
+
+Started GET "/assets/fullcalendar.css?body=1" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+
+
+Started GET "/assets/fullcalendar.js?body=1" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+
+
+Started GET "/events.json?start=1400990400&end=1401595200&_=1401246272714" for 127.0.0.1 at 2014-05-27 23:04:32 -0400
+Processing by EventsController#index as JSON
+  Parameters: {"start"=>"1400990400", "end"=>"1401595200", "_"=>"1401246272714"}
+  [1m[36mEvent Load (0.5ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.json.jbuilder (26.5ms)
+Completed 200 OK in 51ms (Views: 48.4ms | ActiveRecord: 0.5ms)

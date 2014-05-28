@@ -3,13 +3,16 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
+# Coaches and Students
+gem 'devise'
+
 # Calendar
 gem 'fullcalendar-rails'
 
 # So that document.ready works
 gem 'jquery-turbolinks'
 
-# Overlapping validation
+# Overlapping validation on calendar
 gem 'validates_overlap'
 
 # Use SCSS for stylesheets
